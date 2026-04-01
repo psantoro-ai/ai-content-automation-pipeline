@@ -11,6 +11,23 @@ def save_output(content: str, filename: str):
 def run():
     topic = input("Enter content topic: ")
 
+    # 👉 MODO DEMO (sem API)
+    if not os.getenv("OPENAI_API_KEY"):
+        print("\n⚠️ Running in DEMO mode (no API key)\n")
+
+        content = """Headline: AI is transforming marketing
+
+Copy:
+Automated content can scale your business efficiently and improve results.
+
+CTA:
+Start using AI today and stay ahead of the competition.
+"""
+        print(content)
+        save_output(content, "demo_output")
+        return
+
+    # 👉 MODO REAL
     prompt = marketing_post_prompt(topic)
     content = generate_content(prompt)
 
