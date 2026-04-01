@@ -17,4 +17,9 @@ Automated content generation pipeline powered by AI for scalable marketing opera
 - Automation Pipelines
 
 ## 📁 Project Structure
-
+/ai-content-pipeline
+  ├── src/
+  ├── prompts/
+  ├── workflows/
+  ├── api/
+  └── README.md
