@@ -1,5 +1,11 @@
 AI Content Automation Pipeline
 
+📸 Demo
+
+Example of the pipeline generating AI-powered marketing content in real time.
+
+![Demo](assets/demo.png)
+
 AI-powered content generation pipeline designed to automate marketing workflows, improve productivity, and enable scalable content strategies using Large Language Models (LLMs).
 
 🚀 Overview
