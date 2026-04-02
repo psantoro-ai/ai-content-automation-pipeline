@@ -41,4 +41,4 @@ A company can generate blog posts, social media captions, or campaign ideas in s
 - dotenv
 - Modular architecture
 
-📂 Project Structure
+📂 Project Structure 
